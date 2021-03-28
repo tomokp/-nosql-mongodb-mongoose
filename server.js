@@ -6,7 +6,7 @@ const app = express();
 const db = require('./db');
 
 app.use(express.urlencoded({extended: false}));
-app.use('/cat', require('./routes'));
+app.use('/station', require('./routes'));
 
 db.on('connected', () => {
   app.listen(3000);
