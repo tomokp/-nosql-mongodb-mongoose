@@ -1,0 +1,11 @@
+db.createUser(
+  {
+    user: "cmuser",
+    pwd:  "admin",   // or cleartext password
+    roles: [ { role: "readWrite", db: "chargemap" }]
+  }
+)
+
+mongorestore -h node152626-env-0812390.jelastic.metropolia.fi -u admin -p XYPpsm11646 -d chargemap chargemap
+
+mongorestore --username admin --password admin mongodb://node152626-env-0812390.jelastic.metropolia.fi:27017 --ssl -d chargemap chargemap

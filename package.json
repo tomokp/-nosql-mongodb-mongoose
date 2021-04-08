@@ -1,30 +1,16 @@
 {
-  "name": "node-mongo",
+  "name": "chargemap",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomokp/-nosql-mongodb-mongoose.git"
-  },
-  "keywords": [
-    "node",
-    "mongodb",
-    "mongoose"
-  ],
-  "author": "Tom de Bruijn",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/tomokp/-nosql-mongodb-mongoose/issues"
-  },
-  "homepage": "https://github.com/tomokp/-nosql-mongodb-mongoose#readme",
+  "author": "Jarno Korstanje",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.1",
-    "nodemon": "^2.0.7"
+    "mongoose": "^5.12.2"
   }
 }
